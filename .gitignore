@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#.env for database user and password
+.env
+
+#add config file
+config.py
