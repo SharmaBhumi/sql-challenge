@@ -19,6 +19,7 @@ These tasks are performed for the given csv files for Employee data:
 ![Histogram](EmployeeSQL/common_salary.PNG)
 
 2. Bar chart of average salary by title.
+
 ![BarChart](EmployeeSQL/average_salary_by_title.PNG)
 
 ----
