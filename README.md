@@ -2,8 +2,7 @@
 
 ![sql.png](EmployeeSQL/employee_ERD.png)
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
-ETL tasks performed:
+These tasks are performed for the given csv files for Employee data:
 
 1. Data Modeling
 
@@ -13,17 +12,14 @@ ETL tasks performed:
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables.
+* Inspect the CSVs and sketch out an ERD of the tables.
 
 #### Data Engineering
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
-
-* Import each CSV file into the corresponding SQL table.
+* Create table schema and import the data for each of the six CSV files
 
 #### Data Analysis
-
-Once you have a complete database, do the following:
+##### Run SQL to find out following:
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 
@@ -44,7 +40,7 @@ Once you have a complete database, do the following:
 ## Data Exploration using SQLAlchemy 
 
 1. Create a histogram to visualize the most common salary ranges for employees.
-[Histogram]()
+[Histogram](EmployeeSQL/common_salary.PNG)
 
 2. Create a bar chart of average salary by title.
-[BarChart]()
+[BarChart](EmployeeSQL/average_salary_by_title.PNG)
